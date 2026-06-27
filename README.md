@@ -35,7 +35,7 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ![Visualisation of the demand of top skills for Data Analysts](Project/Figures/top_skills_DA.png)
 
-*Line graph visualising the trending top skills for data analysts in the UK across the four quarters from 2023 to 2025
+*Line graph visualising the trending top skills for data analysts in the UK across the four quarters from 2023 to 2025*
 
 ### Insights
 
@@ -55,7 +55,7 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_DS.png)
 
-*Line graph visualising the trending top skills for data scientists in the UK across the four quarters from 2023 to 2025
+*Line graph visualising the trending top skills for data scientists in the UK across the four quarters from 2023 to 2025*
 
 ### Insights
 
@@ -75,7 +75,7 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_MLE.png)
 
-*Line graph visualising the trending top skills for machine learning engineers in the UK across the four quarters from 2023 to 2025
+*Line graph visualising the trending top skills for machine learning engineers in the UK across the four quarters from 2023 to 2025*
 
 ### Insights
 
