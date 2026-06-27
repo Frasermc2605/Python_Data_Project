@@ -31,7 +31,13 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ## 2.1 Data Analysts
 
+### Results
+
 ![Visualisation of the demand of top skills for Data Analysts](Project/Figures/top_skills_DA.png)
+
+*Line graph visualising the trending top skills for data analysts in the UK across the four quarters from 2023 to 2025
+
+### Insights
 
 - Apart from Tableau, the four most requested skills all declined in demand from Q2 2024 until Q1 2025, before rising sharply to a peak in Q3 2025. 
 
@@ -45,7 +51,13 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ## 2.2 Data Scientists
 
+### Results
+
 ![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_DS.png)
+
+*Line graph visualising the trending top skills for data scientists in the UK across the four quarters from 2023 to 2025
+
+### Insights
 
 - Python, SQL and R all generally declined in demand throughout 2023 and 2024. Python experienced its largest drop in Q3 2024, while R during Q4 2024.
 
@@ -59,9 +71,15 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ## 2.3 Machine Learning Engineers
 
+### Results
+
 ![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_MLE.png)
 
-- Unlike the Data Analyst and Data Scientist roles, where most skills followed similar trends over time, all five of the most in-demand skills for Machine Learning Engineers exhibited distinct patterns of demand.
+*Line graph visualising the trending top skills for machine learning engineers in the UK across the four quarters from 2023 to 2025
+
+### Insights
+
+- Unlike the data analyst and data scientist roles, where most skills followed similar trends over time, all five of the most in-demand skills for machine learning engineers exhibited distinct patterns of demand.
 
 - Python remained by far the most sought-after skill throughout the period, appearing in approximately 55–78% of job postings in every quarter.
 
@@ -69,5 +87,5 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 - PyTorch experienced the largest overall increase in demand, rising by approximately 18 percentage points between Q1 2023 and Q4 2025. In contrast to SQL, it moved from the fifth most requested skill to the second most requested, occupying this position in three of the four quarters during 2025.
 
-- AWS and Tensorflow also displayed steady general rises, indicating that Engineer roles increasingly prioritised machine learning frameworks such as PyTorch and TensorFlow over database querying skills such as SQL.
+- AWS and Tensorflow also displayed steady general rises, indicating that engineer roles increasingly prioritised machine learning frameworks such as PyTorch and TensorFlow over database querying skills such as SQL.
 
