@@ -11,6 +11,8 @@ View my notebook with the detailed steps on this here: [Skills_count.ipynb](Proj
 
 ![Visualisation of top skills for our jobs](Project/Figures/Skills_Required.png)
 
+*Bar graph visualising the salary for data analyst, data scientist and machine learning engineer roles and their top 5 skills associated with each*
+
 ### Insights
 
 - Python is extremely in demand for Data Scientists and , especially, Machine Learning Engineers, featuring in 53% and 67% of postings respectively. While not as prevalent, it still features in just under a third of postings for Data Analysts.
@@ -88,4 +90,33 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 - PyTorch experienced the largest overall increase in demand, rising by approximately 18 percentage points between Q1 2023 and Q4 2025. In contrast to SQL, it moved from the fifth most requested skill to the second most requested, occupying this position in three of the four quarters during 2025.
 
 - AWS and Tensorflow also displayed steady general rises, indicating that engineer roles increasingly prioritised machine learning frameworks such as PyTorch and TensorFlow over database querying skills such as SQL.
+
+
+## 3. How well do jobs and skills pay for our three roles?
+
+To identify the high paying skills for our desired roles I only included entries from the UK, as well as removing any entires that had the salary_year_avg value unlisted ('NaN'). Before investigating the skills, I plotted boxplots for our three roles to view how their salaries varied generally.
+
+View my notebook with the detailed steps on this here: [job_salaries.ipynb](Project/job_salaries.ipynb)
+
+### Results
+
+![Visualisation of salary distributions for our three roles](Project\Figures\salary_boxplots.png)
+
+*Box plots visualising the salaries for our three job roles*
+
+### Insights
+
+- ML engineers exhibited the largest salary (*excluding outliers*) at roughly £165k. However, this result should be interepreted cautiously due to the small sample size of only 3 postings.
+
+- Scientists and Analysts had identical lower quartile and median values, indicating that a substantial proportion of advertised salaries were concentrated around the same salary level.
+
+- Scientists displayed several high-salary outliers, suggesting that senior or highly specialised positions can command significantly higher salaries than typical roles.
+
+- Analysts recorded a very narrow interquartile range (IQR), indicating that the middle 50% of advertised salaries were relatively consistent compared with the other occupations.
+
+
+
+
+
+
 
