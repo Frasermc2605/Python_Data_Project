@@ -9,20 +9,19 @@ View my notebook with the detailed steps on this here: [Skills_count.ipynb](Proj
 
 ### Results
 
-![Visualisation of top skills for our jobs](Project/Figures/Skills_Required.png)
+![Visualisation of top skills for our jobs](Project/Figures/skills_required.png)
 
 *Bar graph visualising the salary for data analyst, data scientist and machine learning engineer roles and their top 5 skills associated with each*
 
 ### Insights
 
-- Python is extremely in demand for Data Scientists and , especially, Machine Learning Engineers, featuring in 53% and 67% of postings respectively. While not as prevalent, it still features in just under a third of postings for Data Analysts.
+- SQL is an essential skill across all three roles, being the most in-demand skill for both Data Analysts and Data Engineers, and the second most in-demand skill for Data Scientists.
 
-- SQL features in the top 3 most wanted skills for all 3 jobs and is the most in demand skill for Data Analysts, although this is quite closely followed by Excel, Power BI and Python.
+- Python features in at least 30% of job postings for all three roles, increasing to over 50% for both Data Scientists and Data Engineers. It is the single most requested skill for Data Scientists.
 
-- Each job role is more likely to require skills based on: 
-    - Visualisation and cleaning of data - Power BI, Tableau (Data Analysts)
-    - Cloud Technology - AWS, Azure (Data Scientists)
-    - Machine Learning libraries - Pytorch, Tensorflow (Machine Learning Engineers)
+- Data Analyst roles focus more on data manipulation and presentation tools like Power BI and Excel, whereas Data Scientist and Data Engineer roles prioritise programming languages and cloud technologies, with Python, SQL, Azure and AWS featuring prominently.
+
+-Data Scientists and Data Engineers share a much more similar technical skill set than either does with Data Analysts. Four of their top five skills (Python, SQL, Azure and AWS) overlap, whereas Data Analysts uniquely require business intelligence and spreadsheet tools such as Excel, Power BI and Tableau.
 
 ## 2. How are in-demand skills trending for our jobs?
 
@@ -37,7 +36,7 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ![Visualisation of the demand of top skills for Data Analysts](Project/Figures/top_skills_DA.png)
 
-*Line graph visualising the trending top skills for data analysts in the UK across the four quarters from 2023 to 2025*
+*Line graph visualising the trending top skills for data analysts in the UK from 2023 to 2025*
 
 ### Insights
 
@@ -57,7 +56,7 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_DS.png)
 
-*Line graph visualising the trending top skills for data scientists in the UK across the four quarters from 2023 to 2025*
+*Line graph visualising the trending top skills for data scientists in the UK from 2023 to 2025*
 
 ### Insights
 
@@ -75,26 +74,23 @@ View my notebook with the detailed steps on this here: [skills_distribution.ipyn
 
 ### Results
 
-![Visualisation of the demand of top skills for Data Scientist](Project/Figures/top_skills_MLE.png)
+![Visualisation of the demand of top skills for Data Engineers](Project/Figures/top_skills_DE.png)
 
-*Line graph visualising the trending top skills for machine learning engineers in the UK across the four quarters from 2023 to 2025*
+*Line graph visualising the trending top skills for data engineers in the UK across from 2023 to 2025*
 
 ### Insights
 
-- Unlike the data analyst and data scientist roles, where most skills followed similar trends over time, all five of the most in-demand skills for machine learning engineers exhibited distinct patterns of demand.
+- The ranking of the five most in-demand skills remains highly consistent throughout the three-year period. SQL and Python dominate demand in every quarter, only briefly exchanging first place during Q3 2024 and Q2 2025. Neither skill establishes a sustained lead over the other.
 
-- Python remained by far the most sought-after skill throughout the period, appearing in approximately 55–78% of job postings in every quarter.
+- Databricks shows the clearest long-term increase, rising from roughly 15% of postings in early 2023 to around 23% by the end of 2025. Although still the least requested of the five skills, its demand increases gradually over the period.
 
-- Despite beginning as the second most frequently requested skill, SQL declined steadily over the three-year period and finished Q4 2025 as the least frequently requested of the five skills, appearing in approximately 14 percentage points fewer postings than AWS.
+-Overall, the required technical skill set for Data Engineers remains remarkably stable over the three-year period, suggesting that employer demand for the core technologies associated with the role changed relatively little between 2023 and 2025.
 
-- PyTorch experienced the largest overall increase in demand, rising by approximately 18 percentage points between Q1 2023 and Q4 2025. In contrast to SQL, it moved from the fifth most requested skill to the second most requested, occupying this position in three of the four quarters during 2025.
+## 3. How well do our three roles pay?
 
-- AWS and Tensorflow also displayed steady general rises, indicating that engineer roles increasingly prioritised machine learning frameworks such as PyTorch and TensorFlow over database querying skills such as SQL.
+To compare the salary distributions of the three selected job roles, box plots were used. Box plots provide a clear visual summary of the median salary, interquartile range (IQR), and any potential outliers, making them well suited for comparing salary distributions across multiple groups.
 
-
-## 3. How well do jobs and skills pay for our three roles?
-
-To identify the high paying skills for our desired roles I only included entries from the UK, as well as removing any entires that had the salary_year_avg value unlisted ('NaN'). Before investigating the skills, I plotted boxplots for our three roles to view how their salaries varied generally.
+Before constructing the plots, rows containing missing values (NaN) in the salary_year_avg column were removed. Since these entries do not contain salary information, including them would not contribute to the analysis and could affect the accuracy of the results.
 
 View my notebook with the detailed steps on this here: [job_salaries.ipynb](Project/job_salaries.ipynb)
 
@@ -106,13 +102,17 @@ View my notebook with the detailed steps on this here: [job_salaries.ipynb](Proj
 
 ### Insights
 
-- ML engineers exhibited the largest salary (*excluding outliers*) at roughly £165k. However, this result should be interepreted cautiously due to the small sample size of only 3 postings.
+- Data Engineers recorded the highest median salary, approximately £38k higher than that of Data Scientists. The role also exhibited several outliers exceeding £200k, suggesting that senior or highly specialised positions can command substantially higher salaries than the typical advertised role.
 
-- Scientists and Analysts had identical lower quartile and median values, indicating that a substantial proportion of advertised salaries were concentrated around the same salary level.
+- Data Scientists and Data Analysts shared identical lower quartile and median salaries, indicating that a large proportion of advertised salaries were concentrated at the lower end of their respective salary distributions.
 
-- Scientists displayed several high-salary outliers, suggesting that senior or highly specialised positions can command significantly higher salaries than typical roles.
+- Data Analysts exhibited the narrowest interquartile range (IQR), implying that the middle 50% of advertised salaries were more consistent than those of the other two occupations.
 
-- Analysts recorded a very narrow interquartile range (IQR), indicating that the middle 50% of advertised salaries were relatively consistent compared with the other occupations.
+- All three roles contain high-salary outliers, although these are considerably more pronounced for Data Engineers. This suggests that exceptional salaries are possible across the data profession, but are more common in engineering-focused roles.
+
+## 4 What are the most optimal skills to learn for data roles?
+
+
 
 
 
