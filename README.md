@@ -136,7 +136,7 @@ View my notebook with the detailed steps on this here: [job_salaries.ipynb](Proj
 
 ### Results
 
-![Visualisation of salary distributions for our three roles](Project\Figures\salary_boxplots.png)
+![Visualisation of salary distributions for our three roles](Project/Figures/salary_boxplots.png)
 
 *Box plots visualising the salaries for our three job roles*
 
@@ -162,7 +162,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Analyst job postings requiring each skill](Project\Figures\optimal_skills_DA.png)
+![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Analyst job postings requiring each skill](Project/Figures/optimal_skills_DA.png)
 
 *Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Analyst job postings requiring each skill*
 
@@ -178,7 +178,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Coloured scatter plot illustrating technologies](Project\Figures\optimal_technologies_DA.png)
+![Coloured scatter plot illustrating technologies](Project/Figures/optimal_technologies_DA.png)
 
 *A coloured scatter plot visualising the technologies of our skills*
 
@@ -192,7 +192,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Scientist job postings requiring each skill](Project\Figures\optimal_skills_DS.png)
+![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Scientist job postings requiring each skill](Project/Figures/optimal_skills_DS.png)
 
 *Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Scientist job postings requiring each skill*
 
@@ -208,7 +208,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Coloured scatter plot illustrating technologies](Project\Figures\optimal_technologies_DS.png)
+![Coloured scatter plot illustrating technologies](Project/Figures/optimal_technologies_DS.png)
 
 *A coloured scatter plot visualising the technologies of our skills*
 
@@ -224,7 +224,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Engineer job postings requiring each skill](Project\Figures\optimal_skills_DE.png)
+![Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Engineer job postings requiring each skill](Project/Figures/optimal_skills_DE.png)
 
 *Scatter plot illustrating the relationship between median annual salary and the percentage of UK Data Engineer job postings requiring each skill*
 
@@ -240,7 +240,7 @@ View my notebook with the detailed steps on this here: [optimal_skills.ipynb](Pr
 
 ### Results
 
-![Coloured scatter plot illustrating technologies](Project\Figures\optimal_technologies_DE.png)
+![Coloured scatter plot illustrating technologies](Project/Figures/optimal_technologies_DE.png)
 
 *A coloured scatter plot visualising the technologies of our skills*
 
