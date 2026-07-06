@@ -50,7 +50,7 @@ View my notebook with the detailed steps on this here: [Skills_count.ipynb](Proj
 
 ### Results
 
-![Visualisation of top skills for our jobs](Project/Figures/Skills_required.png)
+![Visualisation of top skills for our jobs](Project/Figures/skills_required_new.png)
 
 *Bar graph visualising the salary for data analyst, data scientist and machine learning engineer roles and their top 5 skills associated with each*
 
